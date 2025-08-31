@@ -59,4 +59,4 @@ Sensors → ESP32 (edge processing) → Fault Detection → Alerts (Blynk/SMS/Em
 ## ⚙ Installation & Setup  
 1. *Clone Repository*  
 ```bash
-git clone https://github.com/your-username/smart-elevator-surveillance.git
+git clone https://github.com/Shreeya146/smart-elevator-surveillance.git
