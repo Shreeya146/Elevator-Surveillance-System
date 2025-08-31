@@ -59,7 +59,7 @@ Follow these steps to set up and run the Smart Elevator Surveillance System on y
 ### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/Shreeya146/smart-elevator-surveillance.git
-'''bash
+```bash
 #2️⃣ Open Code
 
 Open Arduino IDE
