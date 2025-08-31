@@ -56,33 +56,5 @@ This system enhances safety, reduces downtime, lowers maintenance costs, and ena
 1. *Clone Repository*  
 ```bash
 git clone https://github.com/Shreeya146/smart-elevator-surveillance.git
-2. **Open Code in Arduino IDE**  
-   - Go to `File → Open` and select the `.ino` file from the `code/` folder.  
 
-3. **Install Required Libraries**  
-   In Arduino IDE, install the following from **Library Manager**:  
-   - `Wire.h` (for I2C communication)  
-   - `Adafruit_ADXL345_U.h` (for accelerometer)  
-   - `WiFi.h` (for ESP32 Wi-Fi)  
-   - `BlynkSimpleEsp32.h` (for IoT notifications)  
-
-4. **Configure Wi-Fi & Blynk Token**  
-   In `main.ino`, update these values with your own:  
-   ```cpp
-   char ssid[] = "YourWiFi";  
-   char pass[] = "YourPassword";  
-   #define BLYNK_AUTH_TOKEN "YourBlynkToken"
-5. **Upload Code to ESP32**  
-   - Connect ESP32 to your PC with USB  
-   - Select the correct COM port and board (`ESP32 Dev Module`)  
-   - Click **Upload**  
-
-6. **Connect Sensors**  
-   - Wiring diagrams are available in `/hardware`  
-   - Double-check power pins (3.3V/5V) before powering ESP32  
-
-7. **Run the System**  
-   - Open the **Serial Monitor** (115200 baud rate)  
-   - Check real-time logs of vibration, current, and voltage  
-   - Trigger faults to test alerts (Blynk, SMS, Email)  
-
+2.Open Code in Arduino IDE
