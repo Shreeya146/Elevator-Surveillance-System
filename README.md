@@ -96,6 +96,6 @@ char pass[] = "YourPassword";
 
 ### 6. Connect Sensors
 
--Wire the sensors to ESP32 as shown in /hardware/wiring-diagram.png
+-Wire the sensors to ESP32 
 
--Power up the system and open Serial Monitor
+-Power up the system and open Serial Monitor to see logs
