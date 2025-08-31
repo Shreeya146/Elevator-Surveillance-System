@@ -8,20 +8,20 @@
 ---
 
 ##  Project Overview  
-The *Smart Elevator Surveillance System* is an *IoT-enabled real-time monitoring solution* for elevator safety.  
-It detects *cable faults, abnormal vibrations, current/voltage anomalies, and immediately notifies building management through **Email/SMS alerts*.  
+The Smart Elevator Surveillance System is an IoT-enabled real-time monitoring solution for elevator safety.  
+It detects cable faults, abnormal vibrations, current/voltage anomalies, and immediately notifies building management through Email/SMS alerts.  
 
-This system enhances *safety, reduces downtime, lowers maintenance costs, and enables predictive maintenance* – making it ideal for smart buildings and Industry 4.0 adoption.  
+This system enhances safety, reduces downtime, lowers maintenance costs, and enables predictive maintenance – making it ideal for smart buildings and Industry 4.0 adoption.  
 
 ---
 
 ##  Features  
--  Real-time monitoring of *vibration, voltage, and current*  
-- ✅ *Abnormal fault detection* (open/short circuits, insulation breakdown, mechanical imbalance)  
-- ✅ *IoT-enabled alerts* via Blynk, Email, and SMS  
-- ✅ *Compact & low-cost design* (ESP32 + sensors)  
-- ✅ Easy integration into existing elevator control systems  
-- ✅ Future-ready: *AI/ML-based predictive maintenance* support  
+-  Real-time monitoring of vibration, voltage, and current  
+- Abnormal fault detection (open/short circuits, insulation breakdown, mechanical imbalance)  
+- IoT-enabled alerts via Blynk, Email, and SMS  
+- Compact & low-cost design (ESP32 + sensors)  
+- Easy integration into existing elevator control systems  
+- Future-ready: AI/ML-based predictive maintenance support  
 
 ---
 
