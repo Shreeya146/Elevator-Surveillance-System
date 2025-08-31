@@ -3,7 +3,7 @@
 ![Arduino](https://img.shields.io/badge/Arduino-IDE-blue)  
 ![ESP32](https://img.shields.io/badge/ESP32-Microcontroller-orange)  
 ![IoT](https://img.shields.io/badge/IoT-Smart%20System-green)  
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)  
+##![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)  
 
 ---
 
