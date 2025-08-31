@@ -16,7 +16,7 @@ This system enhances *safety, reduces downtime, lowers maintenance costs, and en
 ---
 
 ##  Features  
-- ✅ Real-time monitoring of *vibration, voltage, and current*  
+-  Real-time monitoring of *vibration, voltage, and current*  
 - ✅ *Abnormal fault detection* (open/short circuits, insulation breakdown, mechanical imbalance)  
 - ✅ *IoT-enabled alerts* via Blynk, Email, and SMS  
 - ✅ *Compact & low-cost design* (ESP32 + sensors)  
