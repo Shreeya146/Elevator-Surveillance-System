@@ -67,6 +67,7 @@ Open Arduino IDE
 Go to File → Open
 
 Select the .ino file from the /code folder
+
 3️⃣ Install Required Libraries
 
 In Arduino IDE, install the following from Library Manager:
