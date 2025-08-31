@@ -66,4 +66,35 @@ Open Arduino IDE
 
 Go to File → Open
 
-Select the .ino file from the /code folde
+Select the .ino file from the /code folder
+3️⃣ Install Required Libraries
+
+In Arduino IDE, install the following from Library Manager:
+
+Wire.h (for I2C communication)
+
+Adafruit_ADXL345_U.h (for accelerometer)
+
+WiFi.h (for ESP32 Wi-Fi)
+
+BlynkSimpleEsp32.h (for IoT notifications)
+
+4️⃣ Configure Wi-Fi & Blynk Token
+
+Open the .ino file and update these values:
+char ssid[] = "YourWiFi";  
+char pass[] = "YourPassword";  
+#define BLYNK_AUTH_TOKEN "YourBlynkToken"
+5️⃣ Upload Code to ESP32
+
+Connect ESP32 to your PC using USB
+
+Select the correct COM Port and ESP32 Dev Module board
+
+Click Upload
+
+6️⃣ Connect Sensors
+
+Wire the sensors to ESP32 as shown in /hardware/wiring-diagram.png
+
+Power up the system and open Serial Monitor
