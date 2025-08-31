@@ -25,10 +25,10 @@ This system enhances safety, reduces downtime, lowers maintenance costs, and ena
 
 ---
 
-## 🏗System Architecture  
+## System Architecture  
 
 ![System Architecture](docs/system-architecture.png)  
-(Replace with your diagram)  
+(Replace with your diagram) 
 
 *Workflow*:  
 Sensors → ESP32 (edge processing) → Fault Detection → Alerts (Blynk/SMS/Email)  
