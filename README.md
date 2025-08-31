@@ -52,50 +52,50 @@ This system enhances safety, reduces downtime, lowers maintenance costs, and ena
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 Follow these steps to set up and run the Smart Elevator Surveillance System on your ESP32:
 
-### 1️⃣ Clone Repository
+### 1️. Clone Repository
 ```bash
 git clone https://github.com/Shreeya146/smart-elevator-surveillance.git
 ```
-#2️⃣ Open Code
+### 2. Open Code
 
-Open Arduino IDE
+-Open Arduino IDE
 
-Go to File → Open
+-Go to File → Open
 
-Select the .ino file from the /code folder
+-Select the .ino file from the /code folder
 
-3️⃣ Install Required Libraries
+### 3. Install Required Libraries
 
-In Arduino IDE, install the following from Library Manager:
+-In Arduino IDE, install the following from Library Manager:
 
-Wire.h (for I2C communication)
+-Wire.h (for I2C communication)
 
-Adafruit_ADXL345_U.h (for accelerometer)
+-Adafruit_ADXL345_U.h (for accelerometer)
 
-WiFi.h (for ESP32 Wi-Fi)
+-WiFi.h (for ESP32 Wi-Fi)
 
-BlynkSimpleEsp32.h (for IoT notifications)
+-BlynkSimpleEsp32.h (for IoT notifications)
 
-4️⃣ Configure Wi-Fi & Blynk Token
+### 4. Configure Wi-Fi & Blynk Token
 
-Open the .ino file and update these values:
 char ssid[] = "YourWiFi";  
 char pass[] = "YourPassword";  
 #define BLYNK_AUTH_TOKEN "YourBlynkToken"
-5️⃣ Upload Code to ESP32
 
-Connect ESP32 to your PC using USB
+### 5. Upload Code to ESP32
 
-Select the correct COM Port and ESP32 Dev Module board
+-Connect ESP32 to your PC using USB
 
-Click Upload
+-Select the correct COM Port and ESP32 Dev Module board
 
-6️⃣ Connect Sensors
+-Click Upload
 
-Wire the sensors to ESP32 as shown in /hardware/wiring-diagram.png
+### 6. Connect Sensors
 
-Power up the system and open Serial Monitor
+-Wire the sensors to ESP32 as shown in /hardware/wiring-diagram.png
+
+-Power up the system and open Serial Monitor
