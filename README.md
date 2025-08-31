@@ -1,13 +1,13 @@
-# 🚀 Smart Elevator Surveillance System  
+#  Smart Elevator Surveillance System  
 
 ![Arduino](https://img.shields.io/badge/Arduino-IDE-blue)  
 ![ESP32](https://img.shields.io/badge/ESP32-Microcontroller-orange)  
 ![IoT](https://img.shields.io/badge/IoT-Smart%20System-green)  
-##![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)  
+  
 
 ---
 
-## 📌 Project Overview  
+##  Project Overview  
 The *Smart Elevator Surveillance System* is an *IoT-enabled real-time monitoring solution* for elevator safety.  
 It detects *cable faults, abnormal vibrations, current/voltage anomalies, and immediately notifies building management through **Email/SMS alerts*.  
 
@@ -15,7 +15,7 @@ This system enhances *safety, reduces downtime, lowers maintenance costs, and en
 
 ---
 
-## ✨ Features  
+##  Features  
 - ✅ Real-time monitoring of *vibration, voltage, and current*  
 - ✅ *Abnormal fault detection* (open/short circuits, insulation breakdown, mechanical imbalance)  
 - ✅ *IoT-enabled alerts* via Blynk, Email, and SMS  
@@ -25,7 +25,7 @@ This system enhances *safety, reduces downtime, lowers maintenance costs, and en
 
 ---
 
-## 🏗 System Architecture  
+## 🏗System Architecture  
 
 ![System Architecture](docs/system-architecture.png)  
 (Replace with your diagram)  
@@ -35,7 +35,7 @@ Sensors → ESP32 (edge processing) → Fault Detection → Alerts (Blynk/SMS/Em
 
 ---
 
-## 🔧 Hardware Components  
+## Hardware Components  
 | Component | Description |  
 |-----------|-------------|  
 | *ESP32* | Microcontroller with Wi-Fi |  
@@ -47,7 +47,7 @@ Sensors → ESP32 (edge processing) → Fault Detection → Alerts (Blynk/SMS/Em
 
 ---
 
-## 💻 Software & Tools  
+##  Software & Tools  
 - Arduino IDE  
 - Blynk IoT Platform  
 - SMTP (for Email alerts)  
