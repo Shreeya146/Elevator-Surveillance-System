@@ -56,3 +56,16 @@ This system enhances safety, reduces downtime, lowers maintenance costs, and ena
 1. *Clone Repository*  
 ```bash
 git clone https://github.com/Shreeya146/smart-elevator-surveillance.git
+2.Open Code in Arduino IDE
+
+Install Libraries
+
+Wire.h
+
+Adafruit_ADXL345_U.h
+
+WiFi.h
+
+BlynkSimpleEsp32.h
+
+Configure Wi-Fi & Blynk Token in code/main.ino:
